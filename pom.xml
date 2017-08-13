@@ -32,7 +32,6 @@
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
 				<version>3.1.0</version>
-				<scope>provided</scope>
 			</dependency>
 
 		</dependencies>
@@ -52,7 +51,13 @@
 					<artifactId>jetty-maven-plugin</artifactId>
 					<version>${jetty.version}</version>
 				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>1.6.0</version>
+				</plugin>
 			</plugins>
+
 		</pluginManagement>
 
 		<plugins>
