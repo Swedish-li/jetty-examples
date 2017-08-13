@@ -41,6 +41,7 @@
 		<module>hello-world-jetty</module>
 		<module>minimal-servlet</module>
 		<module>jetty-webapp</module>
+		<module>spring-boot-jetty</module>
 	</modules>
 
 	<build>
