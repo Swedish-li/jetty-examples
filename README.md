@@ -9,7 +9,7 @@
 创建镜像文件
 
 ``` bash
-    $ docker image build -t jetty-demo:1.0.0 .
+    $ docker build -t jetty-demo:1.0.0 .
 ```
 
 运行镜像
